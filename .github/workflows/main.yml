@@ -1,7 +1,6 @@
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '37 8 * * *'
+    - cron: '40 8 * * *'
 
 name: Mirror GitHub Selected Repos to Gitee
 jobs:
